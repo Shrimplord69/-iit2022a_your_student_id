@@ -1,0 +1,80 @@
+git clone https://github.com/Shrimplord69/-iit2022a_your_student_id
+
+git checkout bao1
+
+cd bao1
+
+touch iit_answer.txt 
+
+echo "All answers are very easy to find" >> iit_answer.txt
+
+git add .
+
+git commit -m "add1"
+
+git pull bao1
+
+git merge bao1
+
+
+
+
+git checkout branch_easy 
+
+cd branch_easy
+
+touch iit_answer.txt 
+
+echo "All answers are easy to find" >> iit_answer.txt
+
+git add .
+
+git commit -m "add2"
+
+ls
+
+git pull branch_easy
+
+git merge branch_easy
+
+
+
+
+git checkout branch_noteasy 
+
+cd branch_noteasy
+
+touch iit_answer.txt 
+
+echo "All answers are not easy to find" >> iit_answer.txt
+
+git add .
+
+git commit -m "add3"
+
+ls
+
+git pull branch_noteasy
+
+git merge branch_noteasy
+
+
+
+
+git checkout branch_hard 
+
+cd branch_hard
+
+touch iit_answer.txt 
+
+echo "All answers are hard to find" >> iit_answer.txt
+
+git add .
+
+git commit -m "add4"
+
+ls
+
+git pull branch_hard
+
+git merge branch_hard
